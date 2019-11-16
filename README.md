@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/Andraquin/irite_backend.svg?style=svg)](https://circleci.com/gh/Andraquin/irite_backend)
+
 # iRite
 
 ## Vision
