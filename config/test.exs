@@ -9,6 +9,6 @@ config :irite, IriteWeb.Endpoint,
 # Print only warnings and errors during test
 config :logger, level: :warn
 
-# Finally import the config/prod.secret.exs which loads secrets
+# Finally import the config/test.secret.exs which loads secrets
 # and configuration from environment variables.
-import_config "test.secret.exs"
+# import_config "test.secret.exs"
