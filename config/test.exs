@@ -11,7 +11,7 @@ config :logger, level: :warn
 
 # Finally import the config/test.secret.exs which loads secrets
 # and configuration from environment variables.
-if MIX_ENV === "test" do
+if MIX_ENV == "test" do
   config :irite, Irite.Repo,
   username: System.get_env("POSTGRES_USER"),
   password: System.get_env("POSTGRES_PASSWORD"),
