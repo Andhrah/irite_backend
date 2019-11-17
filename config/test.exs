@@ -19,7 +19,7 @@ config :logger, level: :warn
       config :irite, Irite.Repo,
       username: System.get_env("POSTGRES_USER") ,
       password: System.get_env("POSTGRES_PASSWORD"),
-      database: System.get_env("POSTGRES_DB")
+      database: System.get_env("POSTGRES_DB"),
       pool: Ecto.Adapters.SQL.Sandbox
     # else
     #   import_config "test.secret.exs"
