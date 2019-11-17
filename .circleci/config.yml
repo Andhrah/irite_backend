@@ -9,7 +9,7 @@ jobs:  # basic units of work in a run
       - image: circleci/postgres:10.1-alpine  # database image
         environment:  # environment variables for database
           POSTGRES_USER: postgres
-          POSTGRES_DB: irite_test
+          POSTGRES_DB: app_test
           POSTGRES_PASSWORD:
 
     working_directory: ~/app  # directory where steps will run
@@ -50,6 +50,8 @@ jobs:  # basic units of work in a run
       - run:  # special utility that stalls main process until DB is ready
           name: Wait for DB
           command: dockerize -wait tcp://localhost:5432 -timeout 1m
+      
+      - run: mix ecto.create
 
       - run: mix test  # run all tests in project
 
