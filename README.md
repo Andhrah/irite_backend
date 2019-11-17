@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/Andraquin/irite_backend.svg?style=svg)](https://circleci.com/gh/Andraquin/irite_backend)
+[![CircleCI](https://circleci.com/gh/Andraquin/irite_backend/tree/staging.svg?style=svg)](https://circleci.com/gh/Andraquin/irite_backend/tree/staging)
 
 # iRite
 
