@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/Andraquin/irite_backend/tree/staging.svg?style=svg)](https://circleci.com/gh/Andraquin/irite_backend/tree/staging)
+[![Coverage Status](https://coveralls.io/repos/github/Andraquin/irite_backend/badge.svg?branch=staging)](https://coveralls.io/github/Andraquin/irite_backend?branch=staging)
 
 # iRite
 
