@@ -5,7 +5,9 @@ defmodule IriteWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/api", IriteWeb do
+  scope "/api/v1", IriteWeb do
     pipe_through :api
+
+    resources "/users", UserController, only: [:create, :show]
   end
 end
